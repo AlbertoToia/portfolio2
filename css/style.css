@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Tutti i titoli della stessa grandezza */
+.testo h1{
+    font-size: 3.5rem;
+}
+
+/* DOCTYPE */
+#html{
+    position: fixed;
+    margin: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1.25rem;
+}
+
+/* Navbar */
+#navbar{
+    width: 100%;
+    position: fixed;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Non uso % perchè voglio che la dimensione rimanga uguale indipendentemente dal dispositivo */
+#navbar .container .box1{
+    margin: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 12px;
+    transition: .2s
+}
+
+#navbar .container a{
+    text-decoration: none;
+}
+
+#navbar .container .box2 p{
+    color: rgb(194, 194, 194);
+}
+
+/* Hover e active per i 3 links alle pagine */
+#navbar .container .box1:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#navbar .container .box1:active .box2 p{
+    color: black;
+}
+
+#navbar .container .home:active{
+    background-color: rgb(238, 135, 0);
+}
+
+#navbar .container .aboutme:active{
+    background-color: rgb(13, 250, 141);
+}
+
+#navbar .container .skills:active{
+    background-color: skyblue
+}
+
+#social{
+    position: fixed;
+    top: 1%;
+    right: 5%;
+}
+
+#social .container a img{
+    width: 30px;
+    margin: 0 5px;
+}
+
+
+/* Home */
+#home{
+    background: url(./img/background_home.png) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#home .simbolo{
+    color: rgb(238, 135, 0);
+}
+
+#home .container{
+    display: flex;
+}
+
+/* Uso % per avere meno problemi con i media queries */
+#home .container .testo{
+    margin: 15% 0 0 15%;
+}
+
+#home .container .testo h1{
+    font-size: 3.5rem;
+    color: rgb(196, 196, 196);
+}
+
+#home .container .testo h1 span{
+    color: rgb(238, 135, 0);
+}
+
+#home .container .testo p{
+    color: rgb(204, 204, 204);
+    line-height: 1.5rem;
+}
+
+#home .container .testo #array{
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+#home .container .immagine{
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+#home .container .immagine img{
+    width: 300px;
+}
+
+
+/* About Me */
+#aboutme{
+    background: url(./img/background_aboutme.png) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#aboutme .container{
+    display: flex;
+}
+
+#aboutme .container .testo{
+    margin: 15% 0 0 15%;
+}
+
+#aboutme .titolo, #aboutme .simbolo{
+    color: rgb(13, 250, 141);
+}
+
+#aboutme .container .testo p .evidenziato{
+    color: black;
+    background-color: rgb(13, 250, 141);;
+}
+
+#aboutme .container .testo p{
+    width: 90%;
+    color: rgb(204, 204, 204);
+    line-height: 1.5rem;
+}
+
+#aboutme .container .immagine{
+    margin-top: 18%;
+    margin-right: 8%;
+}
+
+
+/* Skills */
+#skills{
+    background: url(./img/background_skills.png) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#skills .testo{
+    margin: 17rem 0 0 0;
+    color: skyblue;
+}
+
+/* Allineo div con skills ed immagine */
+#skills .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Allineo il contenuto dei div con le skills */
+#skills .container .testo .box .skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skills .container .testo .box{
+    margin: 1.5rem 0;
+}
+
+#skills .container .testo .box .skill p{
+    margin: 0rem 7rem;
+    color: rgb(204, 204, 204);
+    border-bottom: 2px solid skyblue;
+}
+
+#skills .container .testo .box .skill h4{
+    color: skyblue;
+}
+
+#skills .container .testo img{
+    width: 50px;
+}
+
+#skills .container .immagine{
+    margin-top: 28rem;
+}
+
+#skills .simbolo{
+    color: skyblue;
+}
+

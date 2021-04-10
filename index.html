@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Script per array di parole in #home -->
+    <script src="app.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Media queries -->
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="./css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="./css/tablet.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Toia | Portfolio</title>
+</head>
+<body>
+    <!-- DOCTYPE in alto a sx -->
+    <section id="html">
+        <p><span class="simbolo">
+            <span style="color: rgb(158, 158, 158)">&#60!</span>
+            <span style="color: rgb(64, 120, 206)">DOCTYPE</span>
+            <span style="color: rgb(95, 210, 255)">html</span>
+            <span style="color: rgb(158, 158, 158)">&#62</span>
+        </span></p>
+    </section>
+
+    <!-- Navbar -->
+    <section id="navbar">
+        <div class="container">
+            <a href="#home">
+                <div class="home box1">
+                    <div class="box2">
+                        <p>Home</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#aboutme">
+                <div class="aboutme box1">
+                    <div class="box2">
+                        <p>About Me</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#skills">
+                <div class="skills box1">
+                    <div class="box2">
+                        <p>Skills</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Social -->
+    <section id="social">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/alberto-toia-189473209/" target=”_blank”>
+                <img src="./img/linkedin.png" alt="Linkedin" >
+            </a>
+            <a href="https://www.instagram.com/albertotoia_/" target=”_blank”>
+                <img src="./img/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- 1° pagina | Home -->
+    <section id="home">
+        <div class="container">
+            <div class="testo">
+                <h1><span class="titolo">Hi!</span> I'm Alberto</h1>
+                <p id="array">...</p>
+                <p class="descrizione"><span class="simbolo">&#60p&#62</span>
+                    Ho 17 anni e vivo a Palermo, sono uno
+                    <br>
+                    studente di start2impact, amo la programmazione
+                    <br>
+                    e mi impegno per ampliare le mie conoscenze
+                    <br>
+                    in ambito informatico e non solo.
+                    <span class="simbolo">&#60p&#62</span>
+                </p>
+            </div>
+            <div class="immagine">
+                <img src="./img/me.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2° pagina | About Me -->
+    <section id="aboutme">
+        <div class="container">
+            <div class="testo">
+                <h1>
+                    <span class="titolo">About Me</span>
+                </h1>
+                <p>
+                    <p><span class="simbolo">&#60p&#62</span>
+                        Sono nato a Palermo nel 2003 e sin da piccolo ho un'attrazione verso tutto ciò che è <span class="evidenziato">informatica</span>.
+                        <br>
+                        Ricordo ancora quando, da piccolo, guardavo la barra di installazione di macOs nel computer di mio padre, mi affascinava questa cosa apparentemente insignificante.
+                        <br>
+                        Ho iniziato a scrivere le prime lettere dell'alfabeto con la tastiera, a 4 anni, prima ancora che con la penna in un foglio.
+                        <br>
+                        Ora ho 17 anni e sto concretizzando il mio sogno: diventare <span class="evidenziato">Full Stack Developer</span>.
+                        <br>
+                        Frequento il Liceo Scientifico <span class="evidenziato">Scienze Applicate</span>, che comprende l'informatica fra le materie,
+                        non avrei potuto fare una scelta migliore.
+                        <br>
+                        A circa 12 anni vidi per la prima volta un codice, grazie a Minecraft, il gioco "pixelato" che tutti conoscono. Provai a impostare un plugin e... l'ho richiuso immediatamente.
+                        <br>
+                        Tra i 13 e i 16 anni ho passato il mio tempo tra videogiochi <span class="evidenziato">rigorosamente al PC</span>, videomaking e foto-ritocchi, ma notavo che <span>mancava qualcosa</span>.
+                        <br>
+                        La mia svolta arrivò al terzo anno di liceo, quando cominciammo a studiare <span class="evidenziato">C e C++</span> ed è lì che capii che ciò che volevo fare era quello.
+                        <span class="simbolo">&#60p&#62</span>
+                    </p>
+                </p>
+            </div>
+            <div class="immagine">
+                <img src="./img/svg/aboutme.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3° pagina | Skills -->
+    <section id="skills">
+        
+        <div class="container">
+            <div class="testo">
+                <div class="titolo">
+                    <h1>Skills</h1>
+                </div>
+                <div class="box">
+                    <p><span class="simbolo">&#60div&#62</span></p>
+                    <div class="skill">
+                        <img src="./img/skills/htmlcss.png" class="icona" alt="HTML & CSS">
+                        <p class="nome">HTML & CSS</p>
+                        <h4 class="percentuale">80%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/javascript.png" class="icona" alt="Javascript">
+                        <p class="nome">JavaScript</p>
+                        <h4 class="percentuale">25%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/c++.png" class="icona" alt="C/C++">
+                        <p class="nome">C/C++</p>
+                        <h4 class="percentuale">40%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/photoshop.png" class="icona" alt="Photoshop">
+                        <p class="nome">Photoshop</p>
+                        <h4 class="percentuale">75%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/premierepro.png" class="icona" alt="Premiere Pro">
+                        <p class="nome">Premiere Pro</p>
+                        <h4 class="percentuale">65%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/analytics.png" class="icona" alt="Google Analytics">
+                         <p class="nome">Google Analytics</p>
+                        <h4 class="percentuale">50%</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="skill">
+                        <img src="./img/skills/sparkar.png" class="icona" alt="Spark AR Studio">
+                        <p class="nome">Spark AR Studio</p>
+                        <h4 class="percentuale">90%</h4>
+                    </div>
+                    <p><span class="simbolo">&#60div&#62</span></p>
+                </div>
+            </div>
+            <div class="immagine">
+                <img src="./img/svg/passion.svg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

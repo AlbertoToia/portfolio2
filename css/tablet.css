@@ -1,0 +1,9 @@
+#aboutme .container .immagine,
+#skills .container .immagine{
+    display: none;
+}
+
+#skills .container .testo{
+    margin: 20% 10% 0 10%;
+    width: 80%;
+}

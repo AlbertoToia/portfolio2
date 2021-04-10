@@ -1,0 +1,37 @@
+#html{
+    display: none
+}
+
+#aboutme .container .immagine,
+#skills .container .immagine{
+    display: none;
+}
+
+#home .container .testo,
+#aboutme .container .testo{
+    margin: 20% 10% 0 10%;
+}
+
+#skills .container .testo{
+    margin: 20% 10% 0 10%;
+    width: 80%;
+}
+
+#home .container .testo .descrizione{
+    position: absolute;
+    top: 40%;
+}
+
+#home .container .immagine img{
+    width: 100px;
+    position: absolute;
+    left: 70%;
+    top: 15%;
+}
+
+#social{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    left: 10%;
+}
